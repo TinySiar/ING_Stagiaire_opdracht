@@ -1,6 +1,8 @@
 package com.ing.zoo;
 
-public class Crocodile extends Animal implements Carnivore{
+import Interface_Classes.Carnivore;
+
+public class Crocodile extends Animal implements Carnivore {
 
     @Override
     public void sayHello()

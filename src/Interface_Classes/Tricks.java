@@ -1,4 +1,4 @@
-package com.ing.zoo;
+package Interface_Classes;
 
 public interface Tricks {
     String trick = null;

@@ -1,8 +1,11 @@
 package com.ing.zoo;
 
+import Interface_Classes.Herbivore;
+import Interface_Classes.Tricks;
+
 import java.util.Random;
 
-public class Elephant extends Animal implements Herbivore, Tricks{
+public class Elephant extends Animal implements Herbivore, Tricks {
 
     private String trick;
 

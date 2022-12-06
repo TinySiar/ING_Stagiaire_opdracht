@@ -1,5 +1,7 @@
 package com.ing.zoo;
 
+import Interface_Classes.Carnivore;
+
 public class Lion extends Animal implements Carnivore {
     public String name;
     public String helloText;
