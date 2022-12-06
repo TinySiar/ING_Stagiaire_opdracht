@@ -39,6 +39,7 @@ public class Tiger extends Animal implements Carnivore, Tricks {
         {
             trick = "scratches ears";
         }
+
         System.out.println(trick);
     }
 }

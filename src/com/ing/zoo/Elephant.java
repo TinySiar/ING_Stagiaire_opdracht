@@ -7,12 +7,17 @@ import java.util.Random;
 
 public class Elephant extends Animal implements Herbivore, Tricks {
 
+    public String name;
+    public String helloText;
+    public String eatText;
     private String trick;
+    public Elephant() {
+    }
 
     @Override
     public void sayHello()
     {
-        helloText = "Sluuuuurfieeee";
+        helloText = "Sluuuuuurfieeee";
         System.out.println(helloText);
     }
 

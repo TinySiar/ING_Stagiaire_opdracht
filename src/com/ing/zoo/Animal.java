@@ -1,5 +1,4 @@
 package com.ing.zoo;
-
 public class Animal {
 
     public String name;

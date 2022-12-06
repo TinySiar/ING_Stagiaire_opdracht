@@ -3,6 +3,11 @@ package com.ing.zoo;
 import Interface_Classes.Carnivore;
 
 public class Crocodile extends Animal implements Carnivore {
+    public String name;
+    public String helloText;
+    public String eatText;
+    public Crocodile() {
+    }
 
     @Override
     public void sayHello()
@@ -13,7 +18,7 @@ public class Crocodile extends Animal implements Carnivore {
     @Override
     public void eatMeat()
     {
-        eatText = "ammnannananam deeelicious";
+        eatText = "ammnannananam daaalicious";
         System.out.println(eatText);
     }
 }

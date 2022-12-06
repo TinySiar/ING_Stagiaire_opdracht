@@ -13,7 +13,7 @@ public class Lion extends Animal implements Carnivore {
     @Override
     public void sayHello()
     {
-        helloText = "roooaoaaaaar";
+        helloText = "roooaoaaaaarr";
         System.out.println(helloText);
     }
     @Override

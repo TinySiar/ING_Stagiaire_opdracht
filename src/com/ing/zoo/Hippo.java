@@ -19,7 +19,7 @@ public class Hippo extends Animal implements Herbivore {
     @Override
     public void eatLeaves()
     {
-        eatText = "munch munch lovely";
+        eatText = "munch munch munch lovely";
         System.out.println(eatText);
     }
 }

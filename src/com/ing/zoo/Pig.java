@@ -47,5 +47,6 @@ public class Pig extends Animal implements Carnivore, Herbivore, Tricks {
             trick = "runs in circles";
         }
         System.out.println(trick);
+
     }
 }

@@ -75,6 +75,7 @@ public class Zoo {
                     System.out.println("Unknown command: " + input);
                     break;
             }
+
         }
 
 
